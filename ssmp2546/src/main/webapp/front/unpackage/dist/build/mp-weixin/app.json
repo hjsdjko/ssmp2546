@@ -1,0 +1,101 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/huiyuan/list",
+    "pages/huiyuan/add-or-update",
+    "pages/huiyuan/detail",
+    "pages/xinwenleixing/list",
+    "pages/xinwenleixing/add-or-update",
+    "pages/xinwenleixing/detail",
+    "pages/xinwenzixun/list",
+    "pages/xinwenzixun/add-or-update",
+    "pages/xinwenzixun/detail",
+    "pages/wenhualeixing/list",
+    "pages/wenhualeixing/add-or-update",
+    "pages/wenhualeixing/detail",
+    "pages/wenhuazhanshi/list",
+    "pages/wenhuazhanshi/add-or-update",
+    "pages/wenhuazhanshi/detail",
+    "pages/wenzhangleixing/list",
+    "pages/wenzhangleixing/add-or-update",
+    "pages/wenzhangleixing/detail",
+    "pages/wenzhangxinxi/list",
+    "pages/wenzhangxinxi/add-or-update",
+    "pages/wenzhangxinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discussxinwenzixun/list",
+    "pages/discussxinwenzixun/add-or-update",
+    "pages/discussxinwenzixun/detail",
+    "pages/discusswenhuazhanshi/list",
+    "pages/discusswenhuazhanshi/add-or-update",
+    "pages/discusswenhuazhanshi/detail",
+    "pages/discusswenzhangxinxi/list",
+    "pages/discusswenzhangxinxi/add-or-update",
+    "pages/discusswenzhangxinxi/detail",
+    "pages/forum-index/forum-index",
+    "pages/forum-detail/forum-detail",
+    "pages/forum-reply/forum-reply",
+    "pages/forum-list/list",
+    "pages/forum-my/forum-my",
+    "pages/forum-add-or-update/forum-add-or-update",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "综合文化信息管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#A98175",
+    "selectedColor": "#2E4E7E",
+    "borderStyle": "white",
+    "backgroundColor": "#FFC773",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xinwenzixun/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "新闻资讯"
+      },
+      {
+        "pagePath": "pages/wenhuazhanshi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "文化展示"
+      },
+      {
+        "pagePath": "pages/forum-index/forum-index",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "交流论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
